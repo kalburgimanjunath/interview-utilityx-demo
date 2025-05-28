@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.header {
+  @apply flex justify-between p-2 items-center text-center;
+}
+.header svg {
+  @apply w-['24px'];
+}
+.logo_container {
+  @apply flex justify-between items-center;
+}
+.icons {
+  @apply p-2;
+}
