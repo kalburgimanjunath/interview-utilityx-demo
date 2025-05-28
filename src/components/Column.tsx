@@ -19,6 +19,13 @@ const Column = ({ column, tasks, title }) => {
             return <Task task={task} key={task.id} />;
           })}
       </div>
+      <div className="">
+        <input
+          type="text"
+          className="bg-transparent w-full p-2"
+          placeholder="Add a card..."
+        />
+      </div>
     </div>
   );
 };

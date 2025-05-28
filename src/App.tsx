@@ -28,7 +28,7 @@ function App() {
       title: "Setup database schema",
       description:
         "Define tables and relationships for users, tasks, and projects.",
-      status: "TO_DO",
+      status: "RESOURCES",
     },
     {
       id: 3,
@@ -105,7 +105,7 @@ function App() {
     <main className="p-2 text-white mx-auto bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-[#4338ca] via-[#6366f1] to-[#a5b4fc]">
       <Header />
       <DndContext onDragEnd={handleDragEnd}>
-        <div className="grid grid-cols-4 gap-2">
+        <div className="grid grid-cols-4 gap-2 ">
           {COLUMNS.map((column) => {
             return (
               <Column
