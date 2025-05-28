@@ -16,12 +16,12 @@ export default function Header() {
           <span>Toco & Co.(free)</span>
           <span>|</span>
         </div>
-        <div className="flex">
+        <div className="flex justify-arround icons">
           <People />
           <span>Team Visible</span>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex justify-arround icons">
         <div>
           <ThreeDots />
         </div>
